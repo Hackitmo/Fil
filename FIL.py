@@ -25,7 +25,7 @@ def search_in_pdf(filename, search_query):
     return found_texts
 #НАСИЛИЕ УБИЙСТВА АААААААА
 def FILPIKA():
-    pdf_files = ['111.pdf', '112.pdf']
+    pdf_files = ['111.pdf']
     print("Доступные файлы для поиска:", ", ".join(pdf_files))
     
     while True:
