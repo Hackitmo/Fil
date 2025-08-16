@@ -1,6 +1,5 @@
 import PyPDF2
 import re
-#НАСИЛИЕ УБИЙСТВА АААААААА
 def search_in_pdf(filename, search_query):
     found_texts = []
     search_query = search_query.lower()
@@ -23,9 +22,9 @@ def search_in_pdf(filename, search_query):
                         })
     
     return found_texts
-#НАСИЛИЕ УБИЙСТВА АААААААА
 def FILPIKA():
-    pdf_files = ['111.pdf'] #МОЖНО ХОТЬ float('inf') фаилов добавить и по ним искать LMAO
+    pdf_files = ['111.pdf'] 
+    #можно хоть float('inf') фаилов добавить и по ним искать 
     print("Доступные файлы для поиска:", ", ".join(pdf_files))
     
     while True:
@@ -56,3 +55,4 @@ def FILPIKA():
                 print(f"Страница: {FF['page']}")
                 print(f"Текст: {FF['text']}")
 FILPIKA()
+
